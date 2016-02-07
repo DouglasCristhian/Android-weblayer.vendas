@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="6dip" >
+			
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/pedido_lbl_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pedido_lbl_cliente" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/pedido_txt_cliente"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint=""
+                android:inputType="text"
+                android:text="" >
+            </EditText>
+
+            <Button
+                android:id="@+id/pedido_btn_buscacliete"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onBtnPedidoBuscaCliente"
+                android:text="Buscar Cliente" >
+                
+                <requestFocus />
+                
+            </Button>
+
+            <TextView
+                android:id="@+id/pedido_lbl_canal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pedido_lbl_canal" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/pedido_txt_canal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="@string/pedido_lbl_canal_hint"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/pedido_lbl_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pedido_lbl_tipo" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/pedido_spinner_tipo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/pedido_lbl_pedidocliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pedido_lbl_pedidocliente" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/pedido_txt_pedidocliente"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pedido_lbl_pedidocliente_hint"
+                android:text="" 
+                android:singleLine="true">
+            </EditText>
+
+            <Button
+                android:id="@+id/pedido_btn_proximo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onBtnPedidoProximo"
+                android:text="@string/pedido_lbl_proximo">
+            </Button>
+
+            <!-- android:onClick="onBtnPedidoProximo" -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

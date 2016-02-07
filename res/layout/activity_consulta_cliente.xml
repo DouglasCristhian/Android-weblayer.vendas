@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+
+    <!-- Included header.xml here -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dip"
+        tools:ignore="InefficientWeight" >
+        <EditText
+            android:id="@+id/produto_txt_pesquisa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/produto_lbl_pesquisa_hint"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:text="" >
+        </EditText>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dip"
+        tools:ignore="InefficientWeight">
+
+        <ListView
+            android:id="@+id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:listSelector="@drawable/list_selector"
+            android:choiceMode="singleChoice"
+			android:drawSelectorOnTop="true"
+            
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

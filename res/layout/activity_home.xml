@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   
+    
+	 
+   <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        
+
+        <Button android:id="@+id/main_btn_novopedido"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/titulo_novopedido"
+            android:drawableTop="@drawable/plus_disabled"/>
+            
+        <Button android:id="@+id/main_btn_pedido"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/titulo_pedido"
+            android:drawableTop="@drawable/pedido_disabled"/>
+       
+        
+    </LinearLayout>
+
+    <LinearLayout
+       android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+		
+         <Button android:id="@+id/main_btn_cliente"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/titulo_cliente"
+            android:drawableTop="@drawable/cliente_disabled"/>
+         
+        <Button android:id="@+id/main_btn_produto"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/titulo_produto"
+            android:drawableTop="@drawable/produto_disabled"/>
+                        
+    </LinearLayout>
+
+    
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+         
+        
+        <Button android:id="@+id/main_btn_sinc"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/titulo_sinc"
+            android:drawableTop="@drawable/sinc"/>
+		
+		   <Button android:id="@+id/main_btn_config"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/titulo_config"
+            android:drawableTop="@drawable/config"/>
+                        
+    </LinearLayout>
+
+</LinearLayout>
+
+ 
+</LinearLayout>

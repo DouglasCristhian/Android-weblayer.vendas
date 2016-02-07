@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="6dip" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+            </LinearLayout>
+            
+            <!-- CNPJ -->
+            <TextView
+                android:id="@+id/lblcliente_Cnpj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CNPJ" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtcliente_Cnj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="9999999999999" />
+
+            <!-- Código -->
+
+            <TextView
+                android:id="@+id/lblcliente_Codigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Código" />
+
+            <EditText
+                android:id="@+id/txtcliente_Codigo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="9999" />
+
+            <!-- Razão Social -->
+
+            <TextView
+                android:id="@+id/lblcliente_Razao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Razão Social" />
+
+            <EditText
+                android:id="@+id/txtcliente_Razao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Razao social..." />
+
+            <!-- Endereço -->
+
+            <TextView
+                android:id="@+id/lblcliente_Endereco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Endereço" />
+
+            <EditText
+                android:id="@+id/txtcliente_Endereco"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Endereço.." />
+
+            <!-- Bairro -->
+
+            <TextView
+                android:id="@+id/lblcliente_Bairro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Bairro" />
+
+            <EditText
+                android:id="@+id/txtcliente_Bairro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Bairro.." />
+            
+            
+            <!-- Cidade / Estado -->
+
+            <TextView
+                android:id="@+id/lblcliente_Cidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Cidade/Estado" />
+
+            <EditText
+                android:id="@+id/txtcliente_Cidade"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Cidade.." />
+            
+
+            <!-- CEP -->
+
+            <TextView
+                android:id="@+id/lblcliente_CEP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="CEP" />
+
+            <EditText
+                android:id="@+id/txtcliente_CEP"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="CEP.." />
+
+            <!-- Contato -->
+
+            <TextView
+                android:id="@+id/lblcliente_Contato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Contato" />
+
+            <EditText
+                android:id="@+id/txtcliente_Contato"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Contato.." />
+
+            <!-- Telefone -->
+            <TextView
+                android:id="@+id/lblcliente_Telefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Telefone" />
+
+            <EditText
+                android:id="@+id/txtcliente_Telefone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Telefone.." />
+            
+            <!-- Tabela de Preco -->
+            <TextView
+                android:id="@+id/lblcliente_TabelaPreco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Tabela de Preço" />
+
+            <EditText
+                android:id="@+id/txtcliente_TabelaPreco"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Tabela de Preço.." />
+            
+			<!-- Estatus-->
+            <TextView
+                android:id="@+id/lblcliente_Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Status" />
+
+            <EditText
+                android:id="@+id/txtcliente_Status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Status.." />
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

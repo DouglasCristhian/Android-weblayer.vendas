@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="weblayer.vendas.d1"
+      android:versionCode="10"
+      android:versionName="Dev10">
+    
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	
+    <application 
+    	android:icon="@drawable/logo" 
+    	android:label="@string/app_name"
+    	android:debuggable="true">
+        
+        <activity android:name="weblayer.vendas.view.Activity_Home" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		 
+		<activity android:name="weblayer.vendas.view.Activity_Consulta_Pedido" android:label="@string/app_name" ></activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_Consulta_Cliente" android:label="@string/app_name" ></activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_Consulta_Produto" android:label="@string/app_name" ></activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_Config" > </activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_Cliente_Detalhe" > </activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_Produto_Detalhe">	</activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_PedidoNovo" ></activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_Item" ></activity>
+        
+        <activity android:name="weblayer.vendas.view.Activity_PedidoEdit" />
+        <activity android:name="weblayer.vendas.view.Activity_PedidoCapa" />
+        <activity android:name="weblayer.vendas.view.Activity_PedidoItem" />
+        <activity android:name="weblayer.vendas.view.Activity_PedidoOutro" />
+        
+    </application>
+
+    
+</manifest>

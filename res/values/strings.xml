@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">weblayer vendas</string>
+    
+    <string name="titulo_pedido">Pedidos</string>
+    <string name="titulo_pedido_detalhe">Pedido</string>
+    <string name="titulo_pedido_item">Item de Pedido</string>
+    <string name="titulo_produto">Produtos</string>
+    <string name="titulo_produto_detalhe">Produto</string>
+    
+    <string name="titulo_cliente">Clientes</string>
+    <string name="titulo_cliente_detalhe">Cliente</string>
+    
+    <string name="titulo_config">Configuração</string>
+    <string name="titulo_sair">Sair</string>
+    <string name="titulo_sinc">Sincronizar</string>
+    <string name="titulo_novopedido">Novo Pedido</string>
+    <string name="titulo_home">Início</string>
+	
+    
+    
+	<string name="sinc_lbl_mensagem">Por favor, aguarde..</string>
+	<string name="sinc_lbl_titulo">Sincronizando</string>
+	<string name="sinc_lbl_limpandodadosarmazenados">Limpando dados armazenados..</string>
+	<string name="sinc_lbl_salvandoconfiguracao">Salvando Configuração..</string>
+	
+	
+	<string name="config_lbl_versaoprograma">Versão do Programa</string>
+	<string name="config_lbl_conta">Conta</string>
+	<string name="config_lbl_vendedor">Vendedor</string>
+	<string name="config_lbl_dispositivo">Dispositivo(IMEI)</string>
+	<string name="config_lbl_ultimasinc">Última Sincronização</string>
+	<string name="config_lbl_salvarconfig">Salvar</string>
+	<string name="config_lbl_testarconexao">Testar Conexão</string>
+	<string name="config_lbl_limpardados">Limpar Dados Armazenados</string>
+	<string name="config_lbl_vendedor_hint">Entre com o vendedor..</string>
+	<string name="config_lbl_conta_hint">Entre com a conta..</string>
+	
+	<string name="cliente_lbl_documento">CNPJ</string>
+	<string name="cliente_lbl_codigo">Código</string>
+	<string name="cliente_lbl_nome">Nome</string>
+	<string name="cliente_lbl_cliente">Cliente</string>
+	<string name="produto_lbl_pesquisa">Filtro: </string>
+	<string name="produto_lbl_pesquisa_hint">Entre com a palavra chave..</string>
+	<string name="produto_lbl_codigo">Código</string>
+	<string name="produto_lbl_nome">Nome</string>
+	<string name="pedido_lbl_cliente">Cliente</string>
+	<string name="pedido_lbl_cliente_hint">Busque o Cliente..</string>
+	<string name="pedido_lbl_tipo">Tipo</string>
+	<string name="pedido_lbl_tipo_hint">Selecione o tipo de venda..</string>
+	<string name="pedido_lbl_pedidocliente">Pedido no Cliente</string>
+	<string name="pedido_lbl_pedidocliente_hint">Informe o pedido no cliente..</string>
+	<string name="pedido_lbl_canal">Canal</string>
+	<string name="pedido_lbl_canal_hint"></string>
+	<string name="pedido_lbl_proximo">Próximo</string>
+	<string name="pedido_lbl_volume">Volume</string>
+	<string name="pedido_lbl_valorbruto">Valor Bruto</string>
+	<string name="pedido_lbl_valorliquido">Valor Líquido</string>
+	<string name="pedido_lbl_data">Inclusão</string>
+	
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dip"
+        tools:ignore="InefficientWeight" >
+		
+         <TextView 
+             android:id="@+id/produto_lbl_categ3" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="       Linha: " > -->
+         </TextView>
+
+         <Spinner
+             android:id="@+id/produto_spin_categ3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dip"
+        tools:ignore="InefficientWeight" >
+		
+         <TextView 
+             android:id="@+id/produto_lbl_categ1" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="    Família: " > -->
+         </TextView>
+
+         <Spinner
+             android:id="@+id/produto_spin_categ1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" />
+        
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dip"
+        tools:ignore="InefficientWeight" >
+		
+         <TextView 
+             android:id="@+id/produto_lbl_categ2" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:text="Categoria: " > -->
+         </TextView>
+
+         <Spinner
+             android:id="@+id/produto_spin_categ2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" />
+        
+    </LinearLayout>
+    
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:orientation="horizontal" -->
+<!--         android:padding="6dip" -->
+<!--         tools:ignore="InefficientWeight" > -->
+		
+<!--          <TextView  -->
+<!--              android:id="@+id/produto_lbl_categ2"  -->
+<!--              android:layout_width="wrap_content"  -->
+<!--              android:layout_height="wrap_content"  -->
+<!--              android:text="        Filtro: " > --> -->
+<!--          </TextView> -->
+
+<!--          	<EditText -->
+<!--             android:id="@+id/produto_txt_pesquisa" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:hint="@string/produto_lbl_pesquisa_hint" -->
+<!--             android:imeOptions="actionSearch" -->
+<!--             android:inputType="text" -->
+<!--             android:text="" > -->
+<!--         </EditText> -->
+        
+<!--     </LinearLayout> -->
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dip"
+        tools:ignore="InefficientWeight" >
+        
+        <ListView
+            android:id="@+id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:listSelector="@drawable/list_selector"
+            android:choiceMode="singleChoice"
+			android:drawSelectorOnTop="true" />
+    </LinearLayout>
+
+</LinearLayout>

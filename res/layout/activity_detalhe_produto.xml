@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="6dip" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+            </LinearLayout>
+
+            <!-- Código -->
+            <TextView
+                android:id="@+id/lblproduto_Codigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:text="Código" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtproduto_Codigo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusableInTouchMode="false"
+                android:text="9999" />
+
+            <!-- Descrição -->
+
+            <TextView
+                android:id="@+id/lblproduto_Descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:focusableInTouchMode="false"
+                android:text="Descrição" />
+
+            <EditText
+                android:id="@+id/txtproduto_Descricao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusableInTouchMode="false"
+                android:text="Descricao..." />
+
+            <!-- Unid. Medida -->
+
+            <TextView
+                android:id="@+id/lblproduto_UnidMedida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:focusableInTouchMode="false"
+                android:text="Unid. Medida" />
+
+            <EditText
+                android:id="@+id/txtproduto_UnidMedida"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusableInTouchMode="false"
+                android:text="Unidade Medida..." />
+
+            <!-- Peso Bruto -->
+
+            <TextView
+                android:id="@+id/lblproduto_Pesobruto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:focusableInTouchMode="false"
+                android:text="Peso Bruto" />
+
+            <EditText
+                android:id="@+id/txtproduto_Pesobruto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusableInTouchMode="false"
+                android:text="Peso Bruto.." />
+
+            <!-- Peso Líquido -->
+
+            <TextView
+                android:id="@+id/lblproduto_Pesoliquido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:focusableInTouchMode="false"
+                android:text="Peso Líquido" />
+
+            <EditText
+                android:id="@+id/txtproduto_Pesoliquido"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusableInTouchMode="false"
+                android:text="Peso Líquido..." />
+
+            <!-- EAN 13 -->
+
+            <TextView
+                android:id="@+id/lblproduto_Ean13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:focusableInTouchMode="false"
+                android:text="Ean 13" />
+
+            <EditText
+                android:id="@+id/txtproduto_Ean13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusableInTouchMode="false"
+                android:text="Ean 13..." />
+
+            <!-- DUN 14 -->
+
+            <TextView
+                android:id="@+id/lblproduto_Dun14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:focusableInTouchMode="false"
+                android:text="Dun 14" />
+
+            <EditText
+                android:id="@+id/txtproduto_Dun14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Dun 14..." />
+
+            <!-- Estatus -->
+
+            <TextView
+                android:id="@+id/lblproduto_Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:focusableInTouchMode="false"
+                android:text="Status" />
+
+            <EditText
+                android:id="@+id/txtproduto_Status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:focusableInTouchMode="false"
+                android:text="Status.." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

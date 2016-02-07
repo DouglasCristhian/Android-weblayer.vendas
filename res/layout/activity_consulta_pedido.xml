@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dip"
+        tools:ignore="InefficientWeight" >
+		
+           <Button
+          android:id="@+id/cmbitemnovoitem"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Novo Pedido" android:onClick="onBtnPedidoNovo"/>
+           
+        <ListView
+            android:id="@+id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:listSelector="@drawable/list_selector"
+            android:choiceMode="singleChoice"
+			android:drawSelectorOnTop="true" />
+    </LinearLayout>
+
+</LinearLayout>

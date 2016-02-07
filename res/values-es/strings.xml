@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">weblayer ventas</string>
+    
+    <string name="titulo_pedido">Pedidos</string>
+    <string name="titulo_pedido_detalhe">Pedido</string>
+    <string name="titulo_produto">Productos</string>
+    <string name="titulo_cliente">Clientes</string>
+    <string name="titulo_config">Configuración</string>
+    <string name="titulo_sair">Salida</string>
+    <string name="titulo_sinc">Synchronization</string>
+    <string name="titulo_novopedido">Nuevo Pedido</string>
+    <string name="titulo_home">Iniciación</string>
+    
+    <string name="sinc_lbl_titulo">Sincronización</string>
+	<string name="sinc_lbl_mensagem">Por favor, espere..</string>
+	
+	<string name="sinc_lbl_limpandodadosarmazenados">Limpieza de datos almacenados..</string>
+	<string name="sinc_lbl_salvandoconfiguracao">Guardar la configuración..</string>
+	
+    <string name="config_lbl_versaoprograma">Programa de Liberación</string>
+	<string name="config_lbl_conta">Cuenta</string>
+	<string name="config_lbl_vendedor">vendedor</string>
+	<string name="config_lbl_dispositivo">Dispositivo(IMEI)</string>
+	<string name="config_lbl_ultimasinc">Última Sincronización</string>
+	<string name="config_lbl_salvarconfig">Guardar</string>
+	<string name="config_lbl_testarconexao">Prueba de Conexión</string>
+	<string name="config_lbl_limpardados">Borrar Datos Almacenados</string>
+	<string name="config_lbl_vendedor_hint">Introduzca el vendedor..</string>
+	<string name="config_lbl_conta_hint">Introduzca la cuenta..</string>
+	
+	<string name="cliente_lbl_documento">Documento</string>
+	<string name="cliente_lbl_cliente">Cliente</string>
+	<string name="cliente_lbl_codigo">Código</string>
+	<string name="cliente_lbl_nome">Nombre</string>
+
+	<string name="produto_lbl_pesquisa">Filtrar</string>
+	<string name="produto_lbl_pesquisa_hint">Dile a filtrar..</string>
+	<string name="produto_lbl_codigo">Código</string>
+	<string name="produto_lbl_nome">Nombre</string>
+		
+	<string name="pedido_lbl_cliente">Cliente</string>
+	<string name="pedido_lbl_cliente_hint">Informe o Cliente..</string>
+	<string name="pedido_lbl_tipo">Tipo</string>
+	<string name="pedido_lbl_tipo_hint">Informe o tipo de venda..</string>
+	<string name="pedido_lbl_pedidocliente">Pedido no Cliente</string>
+	<string name="pedido_lbl_pedidocliente_hint">Informe o pedido no cliente..</string>
+	<string name="pedido_lbl_canal">Canal</string>
+	<string name="pedido_lbl_canal_hint">Informe o canal..</string>
+	<string name="pedido_lbl_proximo">Próximo</string>
+	<string name="pedido_lbl_volume">Volumen</string>
+	<string name="pedido_lbl_valorliquido">Neto</string>
+	<string name="pedido_lbl_valorbruto">Bruto</string>
+	<string name="pedido_lbl_data">Fecha</string>
+	
+</resources>

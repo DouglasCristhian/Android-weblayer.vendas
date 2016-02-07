@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+    
+    <ImageView
+        android:id="@+id/imgitemstatus"
+       android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="6dip" />
+
+    
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtitemproduto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Produto" />
+
+        <TextView
+            android:id="@+id/txtitemquantidade1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quant." />
+
+        <TextView
+            android:id="@+id/txtitemprecovenda"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vlr. Venda" />
+
+        <TextView
+            android:id="@+id/txtitemprecototal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vlr. total" />
+        
+        <TextView
+            android:id="@+id/txtitemx"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+        
+    </LinearLayout>
+
+</LinearLayout>

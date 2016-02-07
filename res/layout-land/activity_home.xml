@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        
+            <Button
+                android:id="@+id/main_btn_novopedido"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/plus"
+                android:onClick="onButtonClicker"
+                android:text="@string/titulo_novopedido" />
+
+            <Button
+                android:id="@+id/main_btn_pedido"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/pedido"
+                android:onClick="onButtonClicker"
+                android:text="@string/titulo_pedido" />
+
+            <Button
+                android:id="@+id/main_btn_cliente"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/cliente"
+                android:onClick="onButtonClicker"
+                android:text="@string/titulo_cliente" />
+        </LinearLayout>
+
+        <LinearLayout
+           android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main_btn_produto"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/produto"
+                android:onClick="onButtonClicker"
+                android:text="@string/titulo_produto" />
+
+            <Button
+                android:id="@+id/main_btn_sinc"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/sinc"
+                android:onClick="onButtonClicker"
+                android:text="@string/titulo_sinc" />
+
+            <Button
+                android:id="@+id/main_btn_config"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/config"
+                android:onClick="onButtonClicker"
+                android:text="@string/titulo_config" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

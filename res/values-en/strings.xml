@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">weblayer sales</string>
+    
+    <string name="titulo_pedido">Orders</string>
+    <string name="titulo_pedido_detalhe">Order</string>
+    <string name="titulo_produto">Products</string>
+    <string name="titulo_cliente">Customers</string>
+    <string name="titulo_config">Configuration</string>
+    <string name="titulo_sair">Exit</string>
+    <string name="titulo_sinc">Synchronization</string>
+    <string name="titulo_novopedido">New Order</string>
+    <string name="titulo_home">Home</string>
+    
+    
+    
+    <string name="sinc_lbl_titulo">Synchronizing</string>
+	<string name="sinc_lbl_mensagem">Please wait..</string>
+	<string name="sinc_lbl_limpandodadosarmazenados">Cleaning data stored..</string>
+	<string name="sinc_lbl_salvandoconfiguracao">Saving Configuration..</string>
+	
+    <string name="config_lbl_versaoprograma">Program Version</string>
+	<string name="config_lbl_conta">Account</string>
+	<string name="config_lbl_vendedor">Seller</string>
+	<string name="config_lbl_dispositivo">Device (EMI)</string>
+	<string name="config_lbl_ultimasinc">Last Synchronization</string>
+	<string name="config_lbl_salvarconfig">Save</string>
+	<string name="config_lbl_testarconexao">Test Connection</string>
+	<string name="config_lbl_limpardados">Clear Stored Data</string>
+    <string name="config_lbl_vendedor_hint">Enter the seller..</string>
+	<string name="config_lbl_conta_hint">Enter the account..</string>
+
+	<string name="cliente_lbl_documento">Document</string>
+	<string name="cliente_lbl_codigo">Code</string>
+	<string name="cliente_lbl_nome">Name</string>
+	<string name="cliente_lbl_cliente">Customer</string>
+	
+	<string name="produto_lbl_pesquisa">Filter</string>
+	<string name="produto_lbl_pesquisa_hint">Tell filter..</string>
+	<string name="produto_lbl_codigo">Code</string>
+	<string name="produto_lbl_nome">Name</string>
+	
+	
+	<string name="pedido_lbl_cliente">Customer</string>
+	<string name="pedido_lbl_cliente_hint">Inform the Customer..</string>
+	
+	<string name="pedido_lbl_tipo">Type</string>
+	<string name="pedido_lbl_tipo_hint">Inform the Type..</string>
+	<string name="pedido_lbl_pedidocliente">Order in client</string>
+	<string name="pedido_lbl_pedidocliente_hint">Inform the order in client..</string>
+	<string name="pedido_lbl_canal">Channel</string>
+	<string name="pedido_lbl_canal_hint">Inform the Channel..</string>
+	<string name="pedido_lbl_proximo">Next</string>
+	
+	<string name="pedido_lbl_volume">Volume</string>
+	<string name="pedido_lbl_valorliquido">Net</string>
+	<string name="pedido_lbl_valorbruto">Gross</string>
+	<string name="pedido_lbl_data">Creation</string>
+	
+	
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="6dip" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/config_lbl_Conta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_lbl_conta" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/config_txt_Conta"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/config_lbl_conta_hint"
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/config_lbl_Vendedor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_lbl_vendedor" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/config_txt_Vendedor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/config_lbl_vendedor_hint"
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/config_lbl_Vendedor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_lbl_dispositivo" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/config_txt_Imei"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:inputType="number"
+                android:text="" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/config_lbl_UltimaSinc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/config_lbl_ultimasinc" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/config_txt_UltimaSinc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint=""
+                android:text="" >
+            </EditText>
+
+            <!--
+        Versão do programa 
+		<TextView android:text=	"@string/config_lbl_versaoprograma" android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"  
+    	android:id="@+id/config_lbl_Versao"></TextView>
+	
+		<EditText android:text="" 
+		android:id="@+id/config_txt_Versao" 
+		android:layout_width="fill_parent"  android:enabled="false"
+		android:layout_height="wrap_content"></EditText>
+            -->
+
+            <Button
+                android:id="@+id/config_btn_salvar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:onClick="onBtnSalvarConfig"
+                android:text="@string/config_lbl_salvarconfig" >
+            </Button>
+
+            <Button
+                android:id="@+id/config_btn_testarconexao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:onClick="onBtnTestarConexao"
+                android:text="@string/config_lbl_testarconexao" >
+            </Button>
+
+            <Button
+                android:id="@+id/config_btn_limpardados"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:onClick="onBtnLimparDados"
+                android:text="@string/config_lbl_limpardados" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
