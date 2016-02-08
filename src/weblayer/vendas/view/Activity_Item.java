@@ -83,7 +83,7 @@ public class Activity_Item extends Activity {
 		if (android.os.Build.VERSION.SDK_INT >= 11) {
 			ActionBar actionBar = getActionBar();
 			actionBar.setDisplayShowHomeEnabled(false);
-			actionBar.setTitle("Item de Pedido");
+			actionBar.setTitle(getResources().getString(R.string.titulo_pedido_item));
 		}
 
 		setContentView(R.layout.activity_item);
