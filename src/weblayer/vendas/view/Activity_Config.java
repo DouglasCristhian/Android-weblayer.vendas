@@ -37,7 +37,7 @@ public class Activity_Config extends Activity {
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         
-    	weblayer.toolbox.Common.DefinirTheme(this, "Configura��o");
+    	weblayer.toolbox.Common.DefinirTheme(this, getResources().getString(R.string.titulo_config));
     	
     	super.onCreate(savedInstanceState);
         
@@ -45,7 +45,7 @@ public class Activity_Config extends Activity {
 		{
 	        ActionBar actionBar = getActionBar();
 	    	actionBar.setDisplayShowHomeEnabled(false);
-	    	actionBar.setTitle("Configura��o");
+	    	actionBar.setTitle( getResources().getString(R.string.titulo_config));
 		}
         
         setContentView(R.layout.activity_config);
