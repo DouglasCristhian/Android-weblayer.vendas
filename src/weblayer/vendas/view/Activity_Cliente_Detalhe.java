@@ -19,7 +19,7 @@ public class Activity_Cliente_Detalhe extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		
-		weblayer.toolbox.Common.DefinirTheme(this, "Cliente");
+		weblayer.toolbox.Common.DefinirTheme(this, getResources().getString(R.string.titulo_cliente));
 		
 		super.onCreate(savedInstanceState);
 		
@@ -27,7 +27,7 @@ public class Activity_Cliente_Detalhe extends Activity {
 		{
 			ActionBar actionBar = getActionBar();
 			actionBar.setDisplayShowHomeEnabled(false);
-			actionBar.setTitle("Cliente");
+			actionBar.setTitle(getResources().getString(R.string.titulo_cliente));
 		}
 		
 		setContentView(R.layout.activity_detalhe_cliente);
