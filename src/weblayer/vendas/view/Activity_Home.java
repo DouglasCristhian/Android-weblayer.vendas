@@ -116,7 +116,7 @@ public class Activity_Home extends Activity {
 		if (android.os.Build.VERSION.SDK_INT >= 11) {
 			ActionBar actionBar = getActionBar();
 			actionBar.setDisplayShowHomeEnabled(false);
-			actionBar.setTitle("Início");
+			actionBar.setTitle(getResources().getString(R.string.titulo_home));
 		}
 			
 		
