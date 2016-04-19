@@ -56,26 +56,28 @@
             </EditText>
 
             <TextView
-                android:id="@+id/config_lbl_Vendedor"
+                android:id="@+id/config_lbl_Dispositivo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/config_lbl_dispositivo" >
+                android:text="@string/config_lbl_dispositivo">
             </TextView>
 
             <EditText
                 android:id="@+id/config_txt_Imei"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:hint=""
                 android:inputType="number"
-                android:text="" >
+                android:text=""
+                android:hint="@string/config_lbl_dispositivo_hint">
             </EditText>
 
             <TextView
                 android:id="@+id/config_lbl_UltimaSinc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/config_lbl_ultimasinc" >
+                android:text="@string/config_lbl_ultimasinc"
+                android:hint="@string/config_lbl_ultimasinc"
+                >
             </TextView>
 
             <EditText

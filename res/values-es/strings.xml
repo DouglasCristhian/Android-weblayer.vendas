@@ -53,5 +53,9 @@
 	<string name="pedido_lbl_valorliquido">Neto</string>
 	<string name="pedido_lbl_valorbruto">Bruto</string>
 	<string name="pedido_lbl_data">Fecha</string>
-	
+	<string name="titulo_cliente_detalhe">Cliente</string>
+	<string name="titulo_pedido_item">Item de Pedido</string>
+	<string name="titulo_produto_detalhe">Producto</string>
+	<string name="config_lbl_dispositivo_hint">Introduzca el IMEI..</string>
+
 </resources>

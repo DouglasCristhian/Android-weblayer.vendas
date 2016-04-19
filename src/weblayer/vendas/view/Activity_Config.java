@@ -73,11 +73,12 @@ public class Activity_Config extends Activity {
         
     	myPd_ring.setCancelable(true);
         
-        SalvarConfig();
-                    	
+        boolean retorno = SalvarConfig();
+
         myPd_ring.dismiss();
-        
-        finish();
+
+		if (retorno)
+			finish();
     	
     }
 
@@ -139,15 +140,46 @@ public class Activity_Config extends Activity {
      	
     }
     
-	private void SalvarConfig() 
+	private boolean SalvarConfig()
 	    {
 	    	
-	    	/*Thread.sleep(2000);*/
-	    	
-	    	//Gravando as configura��es
-	    	ParametroDTO parametro=null; 
-	    	
-	        txtImei = (TextView) findViewById(R.id.config_txt_Imei);
+	    	boolean erro=false;
+
+			ParametroDTO parametro=null;
+
+			txtImei = (TextView) findViewById(R.id.config_txt_Imei);
+			txtVendedor = (TextView) findViewById(R.id.config_txt_Vendedor);
+			txtConta= (TextView) findViewById(R.id.config_txt_Conta);
+
+			String  str =txtImei.getText().toString();
+			if(str.equalsIgnoreCase(""))
+			{
+				txtImei.setHint("Informe o IMEI");
+				txtImei.setError("Informe o IMEI");
+				erro =true;
+			}
+
+
+			str =txtVendedor.getText().toString();
+			if(str.equalsIgnoreCase(""))
+			{
+				txtVendedor.setHint("Informe o Vendedor");
+				txtVendedor.setError("Informe o Vendedor");
+				erro =true;
+			}
+
+
+			str =txtConta.getText().toString();
+			if(str.equalsIgnoreCase(""))
+			{
+				txtConta.setHint("Informe a Conta");
+				txtConta.setError("Informe a Conta");
+				erro =true;
+			}
+
+			if (erro)
+				return false;
+
 	        if (txtImei.getText().length()>0)
 	        {
 	        	parametro = new ParametroDTO();
@@ -157,7 +189,7 @@ public class Activity_Config extends Activity {
 	        	ParametroDAO.insertorupdate(parametro);
 	        }
 	        
-	        txtVendedor = (TextView) findViewById(R.id.config_txt_Vendedor);
+
 	        if (txtVendedor.getText().length()>0)
 	        {
 	            parametro = new ParametroDTO();
@@ -167,7 +199,7 @@ public class Activity_Config extends Activity {
 	        	ParametroDAO.insertorupdate(parametro);
 	        }
 	        
-	        txtConta= (TextView) findViewById(R.id.config_txt_Conta);
+
 	        if (txtConta.getText().length()>0)
 	        {
 	            parametro = new ParametroDTO();
@@ -177,7 +209,7 @@ public class Activity_Config extends Activity {
 	        	ParametroDAO.insertorupdate(parametro);
 	        }
 	        
-	        
+	        return true;
 	        
 	    }
 	    

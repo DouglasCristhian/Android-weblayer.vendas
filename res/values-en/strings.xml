@@ -57,6 +57,10 @@
 	<string name="pedido_lbl_valorliquido">Net</string>
 	<string name="pedido_lbl_valorbruto">Gross</string>
 	<string name="pedido_lbl_data">Creation</string>
-	
-	
+	<string name="titulo_cliente_detalhe">Customer</string>
+	<string name="titulo_pedido_item">Order Item</string>
+	<string name="titulo_produto_detalhe">Product</string>
+	<string name="config_lbl_dispositivo_hint">Inform the IMEI code</string>
+
+
 </resources>
