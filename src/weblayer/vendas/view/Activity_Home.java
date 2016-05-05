@@ -208,11 +208,12 @@ public class Activity_Home extends Activity {
 		int id_empresa =0;
 		
 		
-		// Testar conexão com a internet
-		if (weblayer.toolbox.Common.RetornaConnection(this) == 0)
-			throw new Exception("Sem conexão com a internet.");
+		// Testar conexï¿½o com a internet
+		if (weblayer.toolbox.Common.RetornaConnection(this) == 0) {
+			throw new Exception("Sem conexï¿½o com a internet.");
+		}
 
-		// Buscar o webservice do código do cliente..
+		// Buscar o webservice do cï¿½digo do cliente..
 		ParametroDAO.initialize(getApplicationContext());
 
 		ultimasinc = ParametroDAO.GetByKey("ULTIMASINC", "2000/01/01 00:00:00");
@@ -223,25 +224,25 @@ public class Activity_Home extends Activity {
 		imei = ParametroDAO.GetByKey("IMEI", "");
 		codigo = ParametroDAO.GetByKey("CONTA", "");
 		
-		//Caso não tenha parametrizado o endereço do webservice.
+		//Caso nï¿½o tenha parametrizado o endereï¿½o do webservice.
 		webservice= ParametroDAO.GetByKey("WEBSERVICE", "");
 		if (webservice.length() == 0)
 			UrlServiceSINC.Sincronizar(this, codigo);
 		
 		id_empresa = Integer.parseInt(ParametroDAO.GetByKey("ID_EMPRESA", "0"));
 		if (id_empresa==0)
-			throw new Exception("Empresa inválida.");
+			throw new Exception("Empresa invï¿½lida.");
 		
-		//caso não encontrar, apontar erro
+		//caso nï¿½o encontrar, apontar erro
 		webservice= ParametroDAO.GetByKey("WEBSERVICE", "");
 		if (webservice.length() == 0)
-			throw new Exception("Conta inválida. Webservice inválido.");
+			throw new Exception("Conta invï¿½lida. Webservice invï¿½lido.");
 		
 		if (vendedor.length() == 0)
-			throw new Exception("Vendedor inválido.");
+			throw new Exception("Vendedor invï¿½lido.");
 
 		if (imei.length() == 0)
-			throw new Exception("IMEI inválido.");
+			throw new Exception("IMEI invï¿½lido.");
 
 		// Buscar os parametros..
 		DispositivoSINC.Sincronizar(this, webservice, id_empresa, vendedor, imei, ultimasinc);
@@ -258,7 +259,7 @@ public class Activity_Home extends Activity {
 		Categ2SINC.Sincronizar(this, webservice, id_empresa, vendedor, imei, ultimasinc);
 		Categ3SINC.Sincronizar(this, webservice, id_empresa, vendedor, imei, ultimasinc);
 
-		// Atualizar a data de sincronização
+		// Atualizar a data de sincronizaï¿½ï¿½o
 		weblayer.vendas.DTO.ParametroDTO param = new ParametroDTO();
 		param.setds_chave("ULTIMASINC");
 		param.setds_valor(weblayer.toolbox.Common
@@ -301,7 +302,7 @@ public class Activity_Home extends Activity {
 
 			
 			progress = new ProgressDialog(context);
-			progress.setTitle("Sincronização.");
+			progress.setTitle("Sincronizaï¿½ï¿½o.");
 			progress.setMessage("Por favor, aguarde...");
 			progress.show();
 
@@ -329,7 +330,7 @@ public class Activity_Home extends Activity {
 
 				Sincronizar(context);
 
-				return "Sincronização finalizada.";
+				return "Sincronizaï¿½ï¿½o finalizada.";
 
 			} catch (Exception e) {
 
