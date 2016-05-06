@@ -154,8 +154,8 @@ public class Activity_Config extends Activity {
 			String  str =txtImei.getText().toString();
 			if(str.equalsIgnoreCase(""))
 			{
-				txtImei.setHint("Informe o IMEI");
-				txtImei.setError("Informe o IMEI");
+				txtImei.setHint(getResources().getString(R.string.config_lbl_dispositivo_hint));
+				txtImei.setError(getResources().getString(R.string.config_lbl_dispositivo_hint));
 				erro =true;
 			}
 
@@ -163,8 +163,8 @@ public class Activity_Config extends Activity {
 			str =txtVendedor.getText().toString();
 			if(str.equalsIgnoreCase(""))
 			{
-				txtVendedor.setHint("Informe o Vendedor");
-				txtVendedor.setError("Informe o Vendedor");
+				txtVendedor.setHint(getResources().getString(R.string.config_lbl_vendedor_hint));
+				txtVendedor.setError(getResources().getString(R.string.config_lbl_vendedor_hint));
 				erro =true;
 			}
 
@@ -172,8 +172,8 @@ public class Activity_Config extends Activity {
 			str =txtConta.getText().toString();
 			if(str.equalsIgnoreCase(""))
 			{
-				txtConta.setHint("Informe a Conta");
-				txtConta.setError("Informe a Conta");
+				txtConta.setHint( getResources().getString(R.string.config_lbl_conta_hint));
+				txtConta.setError(getResources().getString(R.string.config_lbl_conta_hint));
 				erro =true;
 			}
 
