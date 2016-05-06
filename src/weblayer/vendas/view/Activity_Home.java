@@ -302,8 +302,8 @@ public class Activity_Home extends Activity {
 
 			
 			progress = new ProgressDialog(context);
-			progress.setTitle("Sincroniza��o.");
-			progress.setMessage("Por favor, aguarde...");
+			progress.setTitle(R.string.lbl_sincronizacao);
+			progress.setMessage(getResources().getString(R.string.lbl_porfavoraguarde));
 			progress.show();
 
 			Categ1DAO.initialize(context);

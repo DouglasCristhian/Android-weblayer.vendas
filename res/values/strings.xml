@@ -58,6 +58,7 @@
 	<string name="pedido_lbl_valorbruto">Valor Bruto</string>
 	<string name="pedido_lbl_valorliquido">Valor Líquido</string>
 	<string name="pedido_lbl_data">Inclusão</string>
-	<string name="config_lbl_dispositivo_hint">Entre com o IMEI</string>
+	<string name="lbl_sincronizacao">Sincronização</string>
+	<string name="lbl_porfavoraguarde">Por favor, aguarde...</string>
 
 </resources>
