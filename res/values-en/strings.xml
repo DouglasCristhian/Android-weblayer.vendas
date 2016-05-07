@@ -61,6 +61,8 @@
 	<string name="titulo_pedido_item">Order Item</string>
 	<string name="titulo_produto_detalhe">Product</string>
 	<string name="config_lbl_dispositivo_hint">Inform the IMEI code</string>
+	<string name="lbl_sincronizacao">Sincronizando</string>
+	<string name="lbl_porfavoraguarde">Por favor, aguarde...</string>
 
 
 </resources>

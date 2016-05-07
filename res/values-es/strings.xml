@@ -57,5 +57,7 @@
 	<string name="titulo_pedido_item">Item de Pedido</string>
 	<string name="titulo_produto_detalhe">Producto</string>
 	<string name="config_lbl_dispositivo_hint">Introduzca el IMEI..</string>
+	<string name="lbl_sincronizacao">Sincronizando</string>
+	<string name="lbl_porfavoraguarde">Por favor, aguarde...</string>
 
 </resources>
