@@ -194,38 +194,29 @@ public class Activity_PedidoItem extends Activity_PainelList {
 			
 			if (o != null && o.getid()==0) {
 				
-				
-				
 				if (produto != null) {
-					produto.setText("Total: "
-							+ z.format(o.getvl_lista()));
+					produto.setText(getResources().getString(R.string.lbl_total)+ z.format(o.getvl_lista()));
 				}
 
 				if (quantidade1 != null) {
-					quantidade1.setText("Desconto: "
-							+ z.format(o.getvl_desconto()));
-							
+					quantidade1.setText(getResources().getString(R.string.lbl_desconto) + z.format(o.getvl_desconto()));
 				}
 
 				if (precovenda != null) {
 					precovenda.setVisibility(View.VISIBLE);
-					precovenda.setText("Líquido: "
-							+ z.format(o.getvl_liquido()));
+					precovenda.setText(getResources().getString(R.string.lbl_liquido) + z.format(o.getvl_liquido()));
 				}
 
 				if (precototal != null) {
-					precototal.setText("Peso: " + o.getvl_peso().toString());
+					precototal.setText(getResources().getString(R.string.lbl_peso) + o.getvl_peso().toString());
 				}
 				
 				if (volume!= null) {
 					volume.setVisibility(View.VISIBLE);
-					volume.setText("Volume: " + String.valueOf(o.getnr_quantidade()));
+					volume.setText(getResources().getString(R.string.lbl_volume) + String.valueOf(o.getnr_quantidade()));
 				}
-				
-				
-				
+
 				imgstatus.setImageResource(0);
-				
 				v.setBackgroundColor(0xFFF5F5F5);
 				
 			}
@@ -241,18 +232,15 @@ public class Activity_PedidoItem extends Activity_PainelList {
 				}
 
 				if (quantidade1 != null) {
-					quantidade1.setText("Quantidade: "
-							+ String.valueOf(o.getnr_quantidade()));
+					quantidade1.setText("Quantidade: " + String.valueOf(o.getnr_quantidade()));
 				}
 
 				if (precovenda != null) {
-					precovenda.setText("Valor Venda: "
-							+ z.format(o.getvl_unitario()));
+					precovenda.setText("Valor Venda: " + z.format(o.getvl_unitario()));
 				}
 
 				if (precototal != null) {
-					precototal.setText("Valor Total: "
-							+ z.format(o.getvl_liquido()));
+					precototal.setText("Valor Total: " + z.format(o.getvl_liquido()));
 				}
 
 				if (imgstatus != null) {

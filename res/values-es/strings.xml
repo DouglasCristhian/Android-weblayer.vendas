@@ -59,5 +59,6 @@
 	<string name="config_lbl_dispositivo_hint">Introduzca el IMEI..</string>
 	<string name="lbl_sincronizacao">Sincronizando</string>
 	<string name="lbl_porfavoraguarde">Por favor, aguarde...</string>
+	<string name="lbl_Total">"Desconto: "</string>
 
 </resources>

@@ -18,14 +18,11 @@
     <string name="titulo_novopedido">Novo Pedido</string>
     <string name="titulo_home">Início</string>
 	
-    
-    
 	<string name="sinc_lbl_mensagem">Por favor, aguarde..</string>
 	<string name="sinc_lbl_titulo">Sincronizando</string>
 	<string name="sinc_lbl_limpandodadosarmazenados">Limpando dados armazenados..</string>
 	<string name="sinc_lbl_salvandoconfiguracao">Salvando Configuração..</string>
-	
-	
+
 	<string name="config_lbl_versaoprograma">Versão do Programa</string>
 	<string name="config_lbl_conta">Conta</string>
 	<string name="config_lbl_vendedor">Vendedor</string>
@@ -61,5 +58,11 @@
 	<string name="config_lbl_dispositivo_hint">Entre com o IMEI</string>
 	<string name="lbl_sincronizacao">Sincronizando</string>
 	<string name="lbl_porfavoraguarde">Por favor, aguarde...</string>
+
+	<string name="lbl_total">Total: </string>
+	<string name="lbl_desconto">Desconto: </string>
+	<string name="lbl_liquido">Líquido: </string>
+	<string name="lbl_peso">Peso: </string>
+	<string name="lbl_volume">Volume: </string>
 
 </resources>

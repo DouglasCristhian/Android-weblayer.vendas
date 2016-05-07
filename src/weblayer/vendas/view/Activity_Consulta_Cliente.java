@@ -194,8 +194,7 @@ public class Activity_Consulta_Cliente extends Activity_PainelList {
 				ImageView im = (ImageView) v.findViewById(R.id.iconcliente);
 
 				if (tt != null) {
-					tt.setText(getResources().getString(
-							R.string.cliente_lbl_documento)
+					tt.setText(getResources().getString(R.string.cliente_lbl_documento)
 							+ ": " + weblayer.toolbox.CPFCNPJUtil.formatCPForCPNJ(o.getds_cnpj()));
 
 				
@@ -203,8 +202,7 @@ public class Activity_Consulta_Cliente extends Activity_PainelList {
 
 				if (bt != null) {
 					bt.setText(getResources().getString(
-							R.string.cliente_lbl_codigo)
-							+ ": " + o.getid_retaguarda());
+							R.string.cliente_lbl_codigo) + ": " + o.getid_retaguarda());
 
 				}
 
